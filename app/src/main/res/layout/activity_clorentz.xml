@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_layout_c"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/math3new"
+    android:padding="16dp"
+    tools:context=".clorentz">
+
+    <EditText
+        android:id="@+id/edit_text_var1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="577dp"
+        android:ems="10"
+
+
+        android:inputType="numberDecimal"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/text_view_speed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="630dp"
+        android:gravity="center_horizontal"
+
+
+        android:text="Speed of moving observer:"
+
+
+        android:textColor="@color/white"
+        android:textSize="32sp" />
+
+
+    <Button
+        android:id="@+id/button_lorentz_factor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="520dp"
+        android:text="lorentz factor" />
+
+    <TextView
+        android:id="@+id/text_view_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="490dp"
+        android:paddingRight="80dp"
+        android:text="           "
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edit_text_s2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="530dp"
+        android:ems="10"
+
+        android:hint="Enter speed of observer"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edit_text_l2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="560dp"
+        android:ems="10"
+        android:hint="Enter calculated value of lorentz factor "
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/button_canswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="271dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginRight="301dp"
+        android:text="Check answer" />
+
+    <TextView
+        android:id="@+id/text_view_canswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="230dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="610dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="137dp"
+        android:text="    "
+        android:textSize="12sp"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>
